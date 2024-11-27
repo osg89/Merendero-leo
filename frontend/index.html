@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merendero Reservas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.7/index.global.min.js"></script>
+</head>
+<body>
+    <h1>Reservas del Merendero</h1>
+    <div id="calendar"></div>
+    <form id="reservationForm">
+        <h2>Hacer una Reserva</h2>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="date">Fecha:</label>
+        <input type="date" id="date" name="date" required>
+        <button type="submit">Reservar</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
